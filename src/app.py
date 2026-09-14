@@ -6,3 +6,6 @@ def multiplicar(a, b):
 
 def hola():
     return "Hola Jenkins CI"
+
+def hola_2():
+    return "Hola Jenkins Webhook"
