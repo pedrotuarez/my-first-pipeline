@@ -17,4 +17,14 @@ pipeline {
             }
         }
     }
+
+    post {
+        success {
+            echo 'Pipeline ejecutado correctamente.'
+        }
+
+        failure {
+            echo 'El Pipeline ha fallado.'
+        }
+    }
 }
